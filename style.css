@@ -1,0 +1,238 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+header{
+
+background-image:linear-gradient(to right,#E63746 ,60%, #FFC857,#FFF689);
+width:100%;height:6.5%;
+top:0;left:0;
+position:absolute;
+
+}
+#icone-menu{
+    width: 3.5%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 0.5%;
+    height: 70%;
+}
+#icone-menu >p{
+    display:inline-block;
+    font-size:1em;
+}
+
+
+body{
+    background-color:#0E141B;color:white; text-align:center;
+    font-family:"DM Serif Text", serif;
+}
+
+h1,h2,h3,h4,p{
+    cursor:default;
+}
+
+h1{
+    font-size:2em;
+    color:white;
+   
+  
+}
+#titulo-principal{
+    margin: 10% 10% 5% 10%;   /*short hand*/
+}
+
+h2{
+    text-shadow:1px 1px 1px #A4BAB7;
+    margin-bottom:35px;
+    margin-top:5%;
+}
+#box-secao-now{
+    background-color:#E63746;
+    box-shadow: 5px 5px 20px #464F51;
+    margin:auto;
+    width:40%;
+    padding:10px;
+    border-radius: 10px;
+}
+#secao-now{
+    margin:23px 23px;
+    text-shadow:1px 1px 2px #fff689;
+    font: size 1.2em;
+}
+audio{
+    margin-bottom:10px;
+    width:325px;
+}
+#letra-musica{
+    border:1px #0E141B;
+}
+
+
+
+#albuns-imagens{
+    padding:0;
+    box-shadow: 5px 5px 20px #464F51;
+    background-color:#E63746;
+    margin:auto;
+    width:40%;
+    padding:10px;
+    border-radius: 10px;
+    
+}
+#albuns-imagens >p{
+    margin:10px 10px;
+}
+.capa-album{
+    width:41%;
+    height:31%
+}
+
+.info{
+    width:40%;
+    text-align:justify;
+    margin:auto;
+} 
+.info-texto{
+    text-indent: 30px;
+}
+
+#box-premios{
+    margin-bottom:40px;
+}
+
+.premios{
+    background-color:#E63746;
+    height:200px;
+    width:200px;
+    border-radius:10px;
+    margin:10px;
+    display:inline-table;
+    box-shadow: 3px 3px 4px 0px #464F51;
+  
+    
+
+}
+.premios >p{
+    width:17px;
+    height:17px;
+    text-align:center;
+    vertical-align:middle;
+    display:table-cell
+   
+}
+.premios >p>spen{
+    display:none;
+    font-size:2em;
+
+  
+    
+}
+
+
+div.premios:hover{
+    background-color:#FFC857;
+    color:#0E141B;
+
+}
+.premios:hover >p >spen{
+    display:block;
+    text-align:center;
+   
+}
+#premios-fonte{
+    text-decoration:none;
+}
+
+
+
+.my-box{
+    width: 40%; /* Valor padrão */
+    margin:auto;
+}
+
+
+footer{
+    position:fixed;
+   
+    left: 0;
+    bottom:0;
+    width:100%;
+    height:40px;
+    background-image:linear-gradient(to right,#E63746 ,60%, #FFC857,#FFF689);
+    font-family:"DM Serif Text", serif;
+   
+}
+
+
+
+.redes-sociais{
+    width:30px; height:30px;
+    margin:5px;
+    display:inline-block
+}
+
+.creditos{
+    display: inline-block;
+    font-size: 1.3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.box-redes-sociais{
+    width:100px;
+    float:right;
+}
+/* Media query para telas menores, como celulares */
+@media (max-width: 768px) {
+    .my-box {
+        width: 98%; /* Valor para telas menores */     
+    }
+    .redes-sociais{
+        width:10px; height:10px;
+    }
+    #icone.menu{
+        height:70%;
+        width:30px;
+    }
+    #titulo-principal{
+        margin-top:15%;
+        
+    }
+    #box-secao-now{
+        width:65%;
+        
+    }
+    #box-secao-now >img{
+        height: 15%;
+        width:42%;
+    }
+    #albuns-imagens{
+        width:65%
+    }
+    .capa-album{
+        width:41%;
+        height:15%;
+    }
+    h2{
+        
+        margin-bottom:8%;
+        margin-top:10%;
+    }
+    .info{
+        width:65%;
+    }
+    .my-box{
+        width:65%
+    }
+    box-redes-sociais{
+        width:20%;
+        float:right;
+    }
+    .redes-sociais{
+        width:22%; height:55%;
+        margin:10px;
+        display:inline-block
+    }
+}
