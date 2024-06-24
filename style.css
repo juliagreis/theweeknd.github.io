@@ -185,7 +185,7 @@ footer{
     float:right;
 }
 /* Media query para telas menores, como celulares */
-@media (max-width: 393px) {
+@media (max-width: 500px) {
     .my-box {
         width: 98%; /* Valor para telas menores */     
     }
@@ -193,7 +193,7 @@ footer{
         width:10px; height:10px;
     }
     #icone.menu{
-        height:20px;
+        height:5px;
         width:30px;
     }
     #titulo-principal{
