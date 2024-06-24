@@ -185,7 +185,7 @@ footer{
     float:right;
 }
 /* Media query para telas menores, como celulares */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .my-box {
         width: 98%; /* Valor para telas menores */     
     }
