@@ -185,7 +185,7 @@ footer{
     float:right;
 }
 /* Media query para telas menores, como celulares */
-@media (max-width: 600px) {
+@media (max-width: 563px) {
     .my-box {
         width: 98%; /* Valor para telas menores */     
     }
@@ -193,7 +193,7 @@ footer{
         width:10px; height:10px;
     }
     #icone.menu{
-        height:5px;
+        height:70%;
         width:30px;
     }
     #titulo-principal{
@@ -205,15 +205,19 @@ footer{
         
     }
     #box-secao-now >img{
-        height: 15%;
-        width:42%;
+        height:20%;
+        width:50%;
+    }
+    audio{
+    margin-bottom:10px;
+    width:64%;
     }
     #albuns-imagens{
         width:65%
     }
     .capa-album{
-        width:41%;
-        height:15%;
+        width:48%;
+        height:20%;
     }
     h2{
         
